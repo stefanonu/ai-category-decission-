@@ -17,19 +17,6 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-# Replace the PROMPT_TEMPLATE with:
-
-# PROMPT_TEMPLATE = """You have this abstract:
-# {abstract}
-
-# Your job is to find me the best match category for this abstract using this list [{categories}].
-
-# Maybe some articles are part of multiple categories, try to define ratio from 0-10 for each category where maximum is 10 and minum is 0.
-
-# It is the most important task to give score for all categories, if it's not mentioned you can assign 0, do not suppose things.
-
-# Please output just a json and nothing else, make sure we have all categories there, if the category is not relevant , just add a zero to them."""
-
 PROMPT_TEMPLATE = """You have this abstract:
 {abstract}
 
