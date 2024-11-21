@@ -12,7 +12,9 @@ How to run?
 
 pip install -r requirements.txt
 
-2. Run the gpt.py script
+2. Make sure you have the dataset file in the same folder with the rest of the files (all_art1_49_en.rds) 
+
+3. Run the gpt.py script
 
 python gpt.py (this will take at least 5 minutes to run)
 
