@@ -76,7 +76,7 @@ def extract_json(text, idx):
             json_data = json.loads(json_str)
             return json_data
         else:
-            logging.error(f"Text: {text}")
+            logging.info(f"Text: {text}")
             return None
     except json.JSONDecodeError as e:
         logging.info(f"Text: {text}")
